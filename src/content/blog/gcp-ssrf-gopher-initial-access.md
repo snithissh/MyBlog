@@ -11,6 +11,7 @@ tags:
   - SSRF
   - Gopher
   - Service account 
+  - Pwnedlabs
 description:
   The scenario of the lab is that You have recently joined a red team and are on an engagement for the client Gigantic Retail. In scope is their on-premise and cloud environments. As the cloud specialist, you are called upon to get initial access to their infrastructure, starting with an identified IP address.
 ---

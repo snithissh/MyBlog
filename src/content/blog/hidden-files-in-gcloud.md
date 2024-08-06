@@ -9,6 +9,7 @@ draft: false
 tags:
   - GCP
   - Google Cloud Storage 
+  - Pwnedlabs
 description:
   This is exact replica of s3 bucket misconfiguration but in this scenario it happens in google cloud storage and you will learn gsutils, gcloud cli and alot more sometimes it feels like ctf may be 
 ---
