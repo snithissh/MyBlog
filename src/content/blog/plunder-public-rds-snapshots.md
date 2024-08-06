@@ -3,7 +3,7 @@ author: Nithissh S
 pubDatetime: 2024-03-13T15:22:00Z
 modDatetime: 2024-03-13T09:12:47.400Z
 title: Plunder Public RDS Snapshots - Pwnedlabs Writeup
-slug: pillage-exposed-rds
+slug: plunder-public-rds-snaps
 featured: false
 draft: false
 tags:
