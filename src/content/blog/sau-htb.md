@@ -81,7 +81,7 @@ PORT STATE SERVICE VERSION
 Doing so, we see we have 55555 port open, let's try accessing it from the browser:
 
 
-![](files/sau-1.png)
+![](../../assets/images/sau-1.png)
 
 
 We see basket request service, with the version **1.2.1**.
@@ -90,12 +90,12 @@ After searching and reading about baskets, we see that they are used to collect 
 
 Upon creating a basket, we can see that we can do some settings, one of them is the **"forward url"**, which specifies the url that the requests are made to this basket should be forwarded to, in other words, where should the request go.
 
-![](files/sau-2.png)
+![](../../assets/images/sau-2.png)
 
 
 Let's try to make the request get forwarded to us, and let's open port 80 using netcat to test for connectivity: So we set up our listener **sudo nc -lnvp 80**, then let's make a request to `http://10.10.11.224:55555/<BASKET NAME>/anything`, and upon doing so:
 
-![](files/sau-3.png)
+![](../../assets/images/sau-3.png)
 
 
 ## User Flag
@@ -107,13 +107,13 @@ Recall the previously identified filtered port 80? Let's attempt to prompt the s
 Now, let's configure our basket accordingly and proceed to access the basket URL.
 
 
-![](files/sau-4.png)
+![](../../assets/images/sau-4.png)
 
 
 And now when we go there:
 
 
-![](files/sau-5.png)
+![](../../assets/images/sau-5.png)
 
 
 So, guess what? We found out that the mailtrail app is rocking version **0.53**, and it's got this cool vulnerability that we can totally exploit for a **Remote Code Execution (RCE)**. Time to grab a shell on the box!
@@ -130,13 +130,13 @@ With this nifty PoC, we just need to feed it our listening IP and port, hit send
 
 
 
-![](files/sau-6.png)
+![](../../assets/images/sau-6.png)
 
 
 We got our user flag in our **user.txt**
 
 
-![](files/sau-7.png)
+![](../../assets/images/sau-7.png)
 
 
 ## Privilege Escalation
@@ -144,7 +144,7 @@ We got our user flag in our **user.txt**
 The first thing to check is **sudo -l**, when we do so, we see the following:
 
 
-![](files/sau-8.png)
+![](../../assets/images/sau-8.png)
 
 
 Guess what? We can check out a specific service status in `systemctl`, and the default viewer for that is less. Now, here's the cool part – not everyone knows that you can actually run system commands in less! Let's try this out:
@@ -152,4 +152,4 @@ Guess what? We can check out a specific service status in `systemctl`, and the d
 When we pull up the page, just hit !bash, and just like that, we're looking at a root shell. It's like unlocking a secret door – pretty slick, huh? Let's give it a whirl and see what unfolds.
 
 
-![](files/sau-9.png)
+![](../../assets/images/sau-9.png)
