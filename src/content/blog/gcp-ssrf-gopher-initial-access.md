@@ -44,7 +44,7 @@ Exploring further, we also found a shop inside the website where we can buy, che
 
  
 
-![](../Files/ssrf-1.png) 
+![](../../assets/images/ssrf-1.png) 
 
  
 
@@ -52,7 +52,7 @@ But there is an interesting functionality where you can specify your profile fro
 
  
 
-![](../Files/ssrf2.png)  
+![](../../assets/images/ssrf2.png)   
 
  
 
@@ -60,7 +60,7 @@ Intercepting the request and looking into the source of the website 
 
  
 
-![](../Files/ssrf3.png) 
+![](../../assets/images/ssrf3.png) 
 
  
 
@@ -76,7 +76,7 @@ In the Image URL replayed the value with the following URL [http://metadata.goog
 
  
 
-![](../Files/ssrf4.png) 
+![](../../assets/images/ssrf4.png)  
 
  
 
@@ -86,7 +86,7 @@ But results in 403 when we tried to hit the [http://metadata.google.internal/co
 
  
 
-![](../Files/ssrf5.png) 
+![](../../assets/images/ssrf5.png) 
 
  
 
@@ -96,7 +96,7 @@ But even after passing the header `Metadata-Flavor: Google` we are still receiv
 
  
 
-![](../Files/ssrf6.png)  
+![](../../assets/images/ssrf6.png)  
 
  
 
@@ -127,7 +127,7 @@ When passing the payload through the `url` parameter we didn’t 403 instead ou
 
  
 
-![](../Files/ssrf7.png) 
+![](../../assets/images/ssrf7.png) 
 
  
 
@@ -135,7 +135,7 @@ Accessing `/instance` further reveals internal paths and we have to access `ser
 
  
 
-![](../Files/ssrf8.png) 
+![](../../assets/images/ssrf8.png) 
 
  
 
@@ -145,7 +145,7 @@ Accessing that `service-accounts` reveals that other than `default` we have ot
 
  
 
-![](../Files/ssrf9.png) 
+![](../../assets/images/ssrf10.png) 
 
  
 
@@ -157,7 +157,7 @@ Adding to that `/service-accounts/bucketviewer@gr-proj-1.iam.gserviceaccount.com
 
  
 
-![](../Files/ssrf11.png) 
+![](../../assets/images/ssrf11.png) 
 
  
 
@@ -183,7 +183,7 @@ Further, we know that the images for the shop website are being hosted here 
 
  
 
-![](../Files/ssrf10.png) 
+![](../../assets/images/ssrf12.png)  
 
  
 
