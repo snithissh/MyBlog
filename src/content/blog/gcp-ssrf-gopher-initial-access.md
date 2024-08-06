@@ -36,7 +36,7 @@ With the IP Address, I’ve tried to access it directly and found that port 80 i
 
  
 
-![](../Files/ssrf.png) 
+![](../../assets/images/ssrf.png)
 
  
 
