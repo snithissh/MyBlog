@@ -2,7 +2,7 @@
 author: Nithissh S
 pubDatetime: 2024-08-06T08:22:00Z
 modDatetime: 2024-08-06T09:12:47.400Z
-title: A day before my 24th Birthday 
+title: One Awesome pic before my bday 
 slug: day-before-bday
 featured: false
 draft: false

@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Nithissh S",
   profile: "https://www.nithissh.xyz/",
-  desc: "Hacker • AppSec Enthusiast • Bugbounty • Gamer ",
+  desc: "Hacker • AppSec Enthusiast • Bugbounty • PC Gaming",
   title: "Nithissh's Blogs",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
