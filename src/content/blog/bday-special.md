@@ -3,7 +3,7 @@ author: Nithissh S
 pubDatetime: 2024-08-08T03:22:00Z
 modDatetime: 2024-08-08T03:25:47.400Z
 title: Some birthday Special Moments 
-slug: bday-specials
+slug: bday-special-moment
 featured: false
 draft: false
 tags:
