@@ -17,10 +17,6 @@ description:
 
 At exactly 12pm on 8th Aug 2024, Some of my friends who works with me in night shift like pramod, arun and rajesh suprised with a cake and suprisingly I haven't done this before and this is the first time i'm doing it as per my knowledge :-)
 
-Here is the Glimpse of my cake cutting video 
-
-<video src="../../assets/images/bday-night.mp4" width="320" height="320" controls></video>
-
 Honestly speaking I'm really bad at posing for an image and especially this one lol 
 
 ![](../../assets/images/funreaction.jpeg)
