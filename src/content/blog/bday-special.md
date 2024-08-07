@@ -19,7 +19,7 @@ At exactly 12pm on 8th Aug 2024, Some of my friends who works with me in night s
 
 Here is the Glimpse of my cake cutting video 
 
-![](../../assets/images/bday-night.mp4)
+<video src="../../assets/images/bday-night.mp4" width="320" height="320" controls></video>
 
 Honestly speaking I'm really bad at posing for an image and especially this one lol 
 
